@@ -11,4 +11,5 @@ Codice Treno
 Numero Carrozze
 In orario
 Cancellato
-Oltre alla migration di creazione della tabella aggiungente una migration di update con rollback funzionante
+
+Oltre alla migration di creazione della tabella aggiungenre una migration di update con rollback funzionante
