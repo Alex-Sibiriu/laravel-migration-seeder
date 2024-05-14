@@ -23,7 +23,7 @@ class TrainsTableSeeder extends Seeder
             $new_train->departure_time = $faker->time();
             $new_train->arrival_time = $faker->time();
             $new_train->train_code = $faker->numberBetween(100000000000, 999999999999);
-            $new_train->carriages_number = $faker->randomDigit();
+            $new_train->wagons_number = $faker->randomDigit();
             $new_train->slug = $this->generateSlug($new_train->company, $new_train->train_code);
 
             $new_train->save();

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->time('departure_time');
             $table->time('arrival_time');
             $table->char('train_code', 12);
-            $table->tinyInteger('carriages_number')->nullable();
+            $table->tinyInteger('wagons_number')->nullable();
             $table->timestamps();
         });
     }
