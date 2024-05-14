@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
 
-        <h1 class="text-center py-3">I Nostri Treni</h1>
+        <h1 class="text-center pb-3">I Nostri Treni</h1>
 
         <table class="table table-striped mb-3">
             <thead>
@@ -41,7 +41,5 @@
                 @endforeach
             </tbody>
         </table>
-
-        {{ $trains->links() }}
     </div>
 @endsection

@@ -15,8 +15,10 @@ class PageController extends Controller
         return view('home', compact('trains'));
     }
 
-    public function nuovaPagina()
+    public function fromRome()
     {
-        return view('nuova-pagina');
+        $trains = Train::where('departure_station', 'roma')->get();
+
+        return view('from-rome', compact('trains'));
     }
 }

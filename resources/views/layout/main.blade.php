@@ -12,14 +12,13 @@
     <title>Laravel Migration Seeder</title>
 </head>
 
-<body>
+<body class="bg-secondary-subtle">
     @include('partials.header')
 
     <main>
         @yield('content')
     </main>
 
-    @include('partials.footer')
 </body>
 
 </html>
